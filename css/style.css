@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #5f5f5f;
+    letter-spacing: 2px;
+    margin: 50;
+    padding: 50;
+}
+p {
+    text-align: center;
+}
+body {
+    margin: 8px;
+    perspective: 1000px;
+}
+header {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+footer {
+    padding-top: 15rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+}
+.buttons {
+    text-align: right;
+    padding: 10px;
+    transition: 0.5s ease-out;
+}
+.buttons button {
+    padding: 0.5rem 0.5rem;
+    background: none;
+    border: none;
+    box-shadow: 0px 2px 10px #ccc;
+    transition: 0.5s ease-out;
+}
+.buttons button:hover {
+    background: #e1c9f0;
+    color: white;
+}
+.download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frame {
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 10px 10px 15px #ccc;
+    transition: 0.5s ease-out;
+}
+.frame:hover {
+    box-shadow: 25px 25px 20px #ccc;
+}
+a {
+    text-decoration: none;
+}
+.movie-name {
+    padding-top: 1.5rem;
+}
+.logo {
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px #ccc;
+}
+.name {
+    padding-top: 1.5rem;
+}
